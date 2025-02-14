@@ -3,3 +3,5 @@
 .vscode/
 .env
 .venv
+.terragrunt-cache
+.terraform.lock.hcl
