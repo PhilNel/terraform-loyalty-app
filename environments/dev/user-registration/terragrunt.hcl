@@ -6,3 +6,7 @@ include "root" {
 terraform {  
   source = "../../../src//user-registration"
 }
+
+inputs = {
+  environment = "dev"
+}
