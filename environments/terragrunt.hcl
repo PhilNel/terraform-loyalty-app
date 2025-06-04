@@ -12,3 +12,9 @@ remote_state {
     dynamodb_table = "loyalty-app-terraform-locks"
   }
 }
+
+locals {
+  aws_region           = "af-south-1"
+  artefact_bucket_name = "web-scraper-artefacts-dev-af-south-1"
+  environment          = "dev"
+}
